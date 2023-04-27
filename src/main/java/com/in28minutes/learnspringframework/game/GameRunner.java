@@ -1,9 +1,11 @@
 package com.in28minutes.learnspringframework.game;
 
+import com.in28minutes.learnspringframework.GamingConsole;
+
 public class GameRunner {
-	private SuperContraGame game;
+	private GamingConsole game;
 	
-	public GameRunner(SuperContraGame game) {
+	public GameRunner(GamingConsole game) {
 		this.game = game;
 	}
 	public void run() {
